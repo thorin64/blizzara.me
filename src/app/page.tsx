@@ -2,7 +2,35 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+  <div className="grid items-center justify-items-center font-sf-display-pro">
+    <main className="flex flex-col items-center">
+        <Image
+        src="../img/ipodTouch.ico"
+        alt="apple ipod pixel art icon"
+        priority
+          width={180}
+          height={38}
+        />
+        <ol className="">
+        <li className="selectMenu">
+          Select your destiny!
+        <a href="https://nextcloud.blizzara.me">
+        Nextcloud
+        </a>
+        </li>
+        <li>
+        <a href="https://navidrome.blizzara.me">
+        Navidrome
+        </a>
+        </li>
+        <li>
+        <a href="https://jellyfin.blizzara.me">
+        </a>
+        </li>
+        </ol>
+      </main>
+    </div>
+    /* <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
@@ -96,6 +124,6 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
-    </div>
+    </div> */
   );
 }
