@@ -35,9 +35,9 @@ border-radius: 100%;
   /* px-5 */
 }
 main {
-  flex 
+  flex: auto;
   flex-direction: column;
-  items-center 
-  gap-8 
-  row-start-2
+  align-items: center;
+  gap: 32px;
+  grid-row-start: 2;
 }

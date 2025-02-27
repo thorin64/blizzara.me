@@ -3,7 +3,7 @@
 export default function Home() {
   return (
   <div className="grid items-center justify-items-center font-sf-display-pro">
-    <main className="items-center">
+    <main className="row-st">
         <ol>
         <li>
           Select your destiny!
